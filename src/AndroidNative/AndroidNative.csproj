@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <ApplicationId>com.companyname.AndroidNative</ApplicationId>
+    <ApplicationVersion>1</ApplicationVersion>
+    <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../BindingsLibrary/*.csproj" />
+  </ItemGroup>
+
+</Project>

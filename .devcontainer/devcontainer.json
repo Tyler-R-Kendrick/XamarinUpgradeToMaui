@@ -28,7 +28,10 @@
 		"sudo apt update",
 		"sudo apt install android-sdk",
 		"sudo dotnet workload restore",
-		"dotnet build -t:InstallAndroidDependencies -f net8.0-android \"-p:AndroidSdkDirectory=/usr/lib/android-sdk\""
+		"dotnet build -t:InstallAndroidDependencies -f net8.0-android \"-p:AndroidSdkDirectory=/usr/lib/android-sdk\"",
+		"/usr/lib/android-sdk/cmdline-tools/11.0/bin/sdkmanager --install \"build-tools;34.0.0\"",
+		"/usr/lib/android-sdk/cmdline-tools/11.0/bin/sdkmanager --install \"platform-tools\"",
+		"/usr/lib/android-sdk/cmdline-tools/11.0/bin/sdkmanager --install \"cmdline-tools;11.0\""
 	],
 
 	// Configure tool-specific properties.
